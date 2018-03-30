@@ -1,0 +1,11 @@
+
+
+#wrapper-slider  {margin:auto auto;width:540px;height:290px;position:relative;bottom:100px;}
+#container-slider {position:relative; background:#fff; padding:0; height:235px; border:3px double #000; width:540px; overflow:hidden; -webkit-box-shadow: 2px 2px 23px #000000; /* webkit browser*/ -moz-box-shadow: 2px 2px 23px #000000; /* firefox */ box-shadow: 2px 2px 23px #000000;-moz-border-radius: 20px;-webkit-border-radius: 20px;-khtml-border-radius: 20px;border-radius: 20px;}
+#slider {float:left; position:relative; overflow:hidden; width:538px; height:235px;-moz-border-radius: 20px;-webkit-border-radius: 20px;-khtml-border-radius: 20px;border-radius: 20px;}
+#slider ul {position:absolute; list-style:none; top:0; left:0; margin-top:8px;  padding-left:10px; margin-right:10px; padding-bottom:-2px;}
+#slider li {float:left; width:558px; height:235px;-moz-border-radius: 20px;}
+
+#slideleft {position:relative;left:-55px;top:200px;}
+
+#slideright {position:relative;left:545px;top:150px;}
