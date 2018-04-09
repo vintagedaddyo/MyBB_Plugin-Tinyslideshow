@@ -280,26 +280,28 @@ function tinyslideshow_run()
 	}
 }
 
-function tinyslideshow_action_handler(&$action)
+function tinyslideshow_action_handler(&$actions)
 {
-	$action['tinyslideshow'] = array('active' => 'tinyslideshow', 'file' => '');
+	global $mybb, $lang;
+
+	$lang->load("tinyslideshow");
+
+	if(is_super_admin((int)$mybb->user['uid']))
+	{
+		$actions['tinyslideshow'] = array('active' => 'tinyslideshow', 'file' => '');
+	}
 }
 
 function tinyslideshow_admin_nav(&$sub_menu)
 {
 	global $mybb, $lang;
 
-	$lang->load("tinyslideshow", false, true);
-		
-	end($sub_menu);
-	$key = (key($sub_menu))+10;
+    $lang->load("tinyslideshow");
 
-	if(!$key)
+	if(is_super_admin((int)$mybb->user['uid']))
 	{
-		$key = '100';
+		$sub_menu['190'] = array("id" => 'tinyslideshow', "title" => 'Tinyslideshow', "link" => "index.php?module=config-tinyslideshow");
 	}
-	
-	$sub_menu[$key] = array('id' => 'tinyslideshow', 'title' => 'Tinyslideshow', 'link' => "index.php?module=config-tinyslideshow");
 }
 
 function tinyslideshow_admin_permissions(&$admin_permissions)
