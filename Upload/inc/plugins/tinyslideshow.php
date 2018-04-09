@@ -102,7 +102,7 @@ var slideshow=new TINY.slider.slide('slideshow' ,{
 	
 	$template2 = array(
 		"title"		=> "list_tinyslideshow",
-		"template"	=> $db->escape_string("<li><a href=\"{\$mybb->settings['bburl']}/index.php?action=visit&amp;id={\$tinyslideshow['id']}&amp;key={\$mybb->post_code}\" target=\"_blank\"><img src=\"{\$mybb->settings['uploadspath']}/tinyslideshow/{\$tinyslideshow['image']}\" alt=\"{\$tinyslideshow['name']}\" title=\"{\$tinyslideshow['name']}\" width=\"518\" height=\"215\" style=\"-moz-border-radius: 16px;-webkit-border-radius: 16px;-khtml-border-radius: 16px;border-radius: 16px;\"  /></a></li>"),
+		"template"	=> $db->escape_string("<li><a href=\"{\$mybb->settings['bburl']}/index.php?action=visit&amp;id={\$tinyslideshow['id']}&amp;key={\$mybb->post_code}\" target=\"_blank\"><img src=\"{\$mybb->settings['uploadspath']}/tinyslideshow/{\$tinyslideshow['image']}\" alt=\"{\$tinyslideshow['name']}\" title=\"{\$tinyslideshow['name']}\" width=\"918\" height=\"215\" style=\"-moz-border-radius: 16px;-webkit-border-radius: 16px;-khtml-border-radius: 16px;border-radius: 16px;\"  /></a></li>"),
 		"sid"		=> "-1",
 		"tid" => "0",
 	);
