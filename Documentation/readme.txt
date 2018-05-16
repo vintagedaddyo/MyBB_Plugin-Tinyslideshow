@@ -21,9 +21,9 @@ The review also shows how many times a picture was clicked. Furthermore one can 
 
 There are two ways to set the images for the slideshow.
 
-1) In the plugin itself, line 92 width = \ "518 \" height = \ "215 \" (ONLY if the plugin is not yet installed and activated !!)
+1) In the plugin itself, line 105 width = \ "918 \" height = \ "215 \" (ONLY if the plugin is not yet installed and activated !!)
 
-2) In the Global Templates -> list_tinylideshow, width = "518" height = "215" (ONLY if the plugin has already been installed and activated !!)
+2) In the Global Templates -> list_tinylideshow, width = "918" height = "215" (ONLY if the plugin has already been installed and activated !!)
 
 
 

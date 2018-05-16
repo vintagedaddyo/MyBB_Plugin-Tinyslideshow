@@ -28,7 +28,7 @@ $l['setting_1_title'] = "Activate";
 $l['setting_1_description'] = "Should the plugin be activated?";
 
 $l['setting_2_title'] = "Maximum size of the pictures";
-$l['setting_2_description'] = "Specify the max values for uploading images. Here, the original size is the same. <br/> All images are automatically reduced to 518x215px (width x height) / magnified! This can be set in the tinyslideshow.php in the plugin folder, line 92, or under \"Global Templates - tinyslideshow \".";
+$l['setting_2_description'] = "Specify the max values for uploading images. Here, the original size is the same. <br/> All images are automatically reduced to 918x215px (width x height) / magnified! This can be set in the tinyslideshow.php in the plugin folder, line 105, or under \"Global Templates - tinyslideshow \".";
 
 $l['setting_3_title'] = "Exclude user group(s)";
 $l['setting_3_description'] = "Enter the usergroups ID, which should not see this image slideshow. (Separate group ID with comma, leave it blank for all).";

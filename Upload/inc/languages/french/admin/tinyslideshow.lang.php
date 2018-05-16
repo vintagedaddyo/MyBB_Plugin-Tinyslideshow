@@ -28,7 +28,7 @@ $l['setting_1_title'] = "Activer";
 $l['setting_1_description'] = "Le plugin doit-il être activé?";
 
 $l['setting_2_title'] = "Taille maximale des images";
-$l['setting_2_description'] = "Spécifiez les valeurs maximales pour le transfert d image Ici, la taille d origine est la même. <br/> Toutes les images sont automatiquement réduites à 518x215px (largeur x hauteur) / agrandies! le fichier tinyslideshow.php dans le dossier plugin, ligne 92, ou sous \"Modèles globaux - tinyslideshow\". ";
+$l['setting_2_description'] = "Spécifiez les valeurs maximales pour le transfert d image Ici, la taille d origine est la même. <br/> Toutes les images sont automatiquement réduites à 918x215px (largeur x hauteur) / agrandies! le fichier tinyslideshow.php dans le dossier plugin, ligne 105, ou sous \"Modèles globaux - tinyslideshow\". ";
 
 $l['setting_3_title'] = "Exclure les groupes d utilisateurs";
 $l['setting_3_description'] = "Entrez l ID du groupe d utilisateurs, qui ne devrait pas voir ce diaporama (Séparez l ID du groupe par une virgule, laissez-le vide pour tous).";

@@ -28,7 +28,7 @@ $l['setting_1_title'] = "Activar";
 $l['setting_1_description'] = "¿Debería activarse el complemento?";
 
 $l['setting_2_title'] = "Tamaño máximo de las imágenes";
-$l['setting_2_description'] = "Especifique los valores máximos para cargar imágenes. Aquí, el tamaño original es el mismo. <br/> Todas las imágenes se reducen automáticamente a 518x215px (ancho x alto) / magnificado! Esto se puede configurar en el archivo tinyslideshow.php en la carpeta del complemento, línea 92, o en \"Plantillas globales - tinyslideshow\". ";
+$l['setting_2_description'] = "Especifique los valores máximos para cargar imágenes. Aquí, el tamaño original es el mismo. <br/> Todas las imágenes se reducen automáticamente a 918x215px (ancho x alto) / magnificado! Esto se puede configurar en el archivo tinyslideshow.php en la carpeta del complemento, línea 105, o en \"Plantillas globales - tinyslideshow\". ";
 
 $l['setting_3_title'] = "Excluir grupo (s) de usuario";
 $l['setting_3_description'] = "Ingrese el ID de los grupos de usuarios, que no debe ver esta presentación de diapositivas. (ID de grupo separado con una coma, déjelo en blanco para todos).";

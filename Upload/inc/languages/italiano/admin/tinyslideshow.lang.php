@@ -28,7 +28,7 @@ $l['setting_1_title'] = "Attiva";
 $l['setting_1_description'] = "Il plug-in deve essere attivato?";
 
 $l['setting_2_title'] = "Dimensione massima delle immagini";
-$l['setting_2_description'] = "Specifica i valori massimi per il caricamento delle immagini. Qui, la dimensione originale è la stessa. <br/> Tutte le immagini sono automaticamente ridotte a 518x215px (larghezza x altezza) / ingrandite! il file tinyslideshow.php nella cartella dei plugin, riga 92, o in \"Modelli globali - tinyslideshow\". ";
+$l['setting_2_description'] = "Specifica i valori massimi per il caricamento delle immagini. Qui, la dimensione originale è la stessa. <br/> Tutte le immagini sono automaticamente ridotte a 918x215px (larghezza x altezza) / ingrandite! il file tinyslideshow.php nella cartella dei plugin, riga 105, o in \"Modelli globali - tinyslideshow\". ";
 
 $l['setting_3_title'] = "Escludi gruppo(i) utente";
 $l['setting_3_description'] = "Inserisci l ID dei gruppi di utenti, che non dovrebbe vedere questa presentazione di immagini. (Separare l ID di gruppo con una virgola, lasciarlo vuoto per tutti).";
